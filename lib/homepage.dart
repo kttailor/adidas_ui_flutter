@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:carousel_pro/carousel_pro.dart';
 import 'package:smooth_star_rating/smooth_star_rating.dart';
 import 'package:adidas_flutter/productdetailpage.dart';
+import 'package:adidas_flutter/animation_grid.dart';
 
 class AppHomePage extends StatefulWidget {
   @override
@@ -21,7 +22,11 @@ class _AppHomePageState extends State<AppHomePage> {
               'assets/list.png',
               color: Colors.black,
             ),
-            onPressed: () {},
+            onPressed: () {
+              var root = MaterialPageRoute(
+                  builder: (context) => new AnimatedGridViewPage());
+              Navigator.push(context, root);
+            },
           ),
         ),
         Positioned(

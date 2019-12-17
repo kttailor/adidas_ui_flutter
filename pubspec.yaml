@@ -24,6 +24,7 @@ dependencies:
   carousel_pro:
   smooth_star_rating:
   flutter_vector_icons:
+  provider:
 
 dev_dependencies:
   flutter_test:
@@ -83,3 +84,5 @@ flutter:
       - assets/temp/product/user1.jpg
       - assets/temp/product/user2.png
       - assets/temp/product/user3.png
+      - assets/line_menu.png
+      - assets/nike.png
