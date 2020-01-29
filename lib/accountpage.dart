@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 import 'package:adidas_flutter/loginpage.dart';
@@ -30,7 +31,7 @@ class _AccountPageState extends State<AccountPage> {
                 }
               },
               child: Container(
-                  height: 80,
+                  height: kIsWeb ? 120 : 80,
                   child: Padding(
                     padding: EdgeInsets.all(16),
                     child: Column(
